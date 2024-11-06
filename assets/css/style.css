@@ -1,0 +1,73 @@
+@font-face {
+    font-family: "GT Flexa X Cm Bl";
+    src: url("https://db.onlinewebfonts.com/t/27e54ae60938218aedf5e3cdd9b7c57a.eot");
+    src: url("https://db.onlinewebfonts.com/t/27e54ae60938218aedf5e3cdd9b7c57a.eot?#iefix")format("embedded-opentype"),
+        url("https://db.onlinewebfonts.com/t/27e54ae60938218aedf5e3cdd9b7c57a.woff2")format("woff2"),
+        url("https://db.onlinewebfonts.com/t/27e54ae60938218aedf5e3cdd9b7c57a.woff")format("woff"),
+        url("https://db.onlinewebfonts.com/t/27e54ae60938218aedf5e3cdd9b7c57a.ttf")format("truetype"),
+        url("https://db.onlinewebfonts.com/t/27e54ae60938218aedf5e3cdd9b7c57a.svg#GT Flexa X Cm Bl")format("svg");
+}
+.ff_gt_x_cm {
+    font-family: "GT Flexa X Cm Bl",
+        sans-serif;
+}
+*{font-family: 'GT Flexa Trial', sans-serif;}
+
+@font-face {
+    font-family: 'GT Flexa';
+    src: url(../fonts/Gt-font/Web/GT-Flexa/GT-Flexa-Compressed-Black-Italic-Trial.woff2);
+}
+.green-stroke{
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #00FFE0;
+}
+.black-stroke{
+    -webkit-text-stroke: 2px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+.hover-fill {
+    background-size: 200% 200%;
+    background-position: 100% 0;
+    background-image: linear-gradient(to right, #00FFE0 50%, transparent 50%); 
+    -webkit-background-clip: text; 
+    background-clip: text;
+    color: transparent; 
+    transition: background-position 0s ease; 
+}
+.black-hover-fill{
+    background-size: 200% 200%;
+    background-position: 100% 0;
+    background-image: linear-gradient(to right, black 50%, transparent 50%); 
+    -webkit-background-clip: text; 
+    background-clip: text;
+    color: transparent; 
+    transition: background-position 0s ease; 
+}
+.menu-slide {
+    transition: opacity 0.5s ease, z-index 0s 0.5s; /* Delay z-index change to match opacity transition */
+}
+
+.menu-slide.hidden {
+    opacity: 0;
+    z-index: -1; /* Make it unclickable and visually hidden */
+}
+
+.menu-slide.visible {
+    opacity: 1;
+    z-index: 20; /* Ensure it is clickable and visible */
+    transition: opacity 0.5s ease;
+}
+#brand-neu {
+    position: relative;
+    z-index: 2;
+}
+#kernkompetenz {
+    position: relative;
+    z-index: 10;
+}
+.ff_gt-exp{
+    font-family: "gt-exp-it", sans-serif
+}
+
